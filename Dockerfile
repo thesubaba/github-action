@@ -1,3 +1,4 @@
+FROM node:10-slim
 FROM lambci/lambda:build-python3.7
 
 
