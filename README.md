@@ -23,7 +23,7 @@ jobs:
       with:
         args: install
     - name: serverless deploy
-      uses: serverless/github-action@master
+      uses: thesubaba/serverless-github-action-python@master
       with:
         args: deploy
       env:
