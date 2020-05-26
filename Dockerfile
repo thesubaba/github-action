@@ -1,4 +1,3 @@
-FROM node:10-slim
 FROM lambci/lambda:build-python3.7
 
 
@@ -12,5 +11,5 @@ LABEL "com.github.actions.description"="Wraps the Serverless Framework to enable
 LABEL "com.github.actions.icon"="zap"
 LABEL "com.github.actions.color"="red"
 
-RUN npm i -g serverless@1.53.0
+RUN npm i -g serverless
 ENTRYPOINT ["serverless"]
